@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.app{
+    
+    justify-content: center;
+    width: 99vw;
+    height:auto;
+    background-color: #1d1c2d;
+}
+.main{
+    border-radius: 10px;
+    margin-top: 500px;
+    padding: 65px;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#211f32;
+    width: 578px;
+    height: fit-content;
+}
+.logo{
+    font-weight: 700;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 22px;
+}
+.input{
+    width: 448px;
+    height: 69px;
+}
+.input input{
+    border: #312f43 2px solid;
+    background-color: #262538;
+    font-size: 1.2vw;
+    height: 50px;
+}
+.buttonlist{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98%;
+}
+.button{
+    height: 48px;
+    border-radius: 3px;
+    background-color:#262538;
+    color:#8C8C9F;
+    margin: 5px;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+}
+.active{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px;
+    font-family: Mulish;
+    height: 48px;
+    border-radius: 3px;
+    background: #8780F8;
+}
+.comments{
+    margin-top: 50px;
+    flex-direction: column;
+    width: 98%;
+    gap:0.5vw;
+}
+.comment{
+    background-color: #2c2b3f;
+    width: 448px;
+    height: fit-content;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+}
+.avatar{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #d56a6a;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: aliceblue;
+}
+.content{
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+.content p{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Mulish;
+}
+.header{
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.ratings{
+    color: #ffc05d;
+}
+@media (max-width: 768px) {
+  .main{
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .main{
+    width: 100%;
+  }
+  .buttonlist{
+    flex-direction: column;
+  }
+  .header{
+    flex-direction: column;
+  }
+}
+.name{
+    font-size: 18px;
+    font-family: Mulish;
+}
